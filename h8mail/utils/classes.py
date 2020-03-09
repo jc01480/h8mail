@@ -292,7 +292,7 @@ class target:
             c.bad_news("HIBP v3 PASTE error: " + self.target)
             print(ex)
 
-    def get_emailrepio(self, api_key="9rtw9exrpc2md05p8asn7iktvh2ph8njv184q8xxapb3629q"):
+    def get_emailrepio(self, api_key="{9rtw9exrpc2md05p8asn7iktvh2ph8njv184q8xxapb3629q}"):
         try:
             sleep(0.5)
             if len(api_key) != 0:
